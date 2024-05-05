@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>assignment 14</title>
+    <style>
+        @font-face {
+            font-family: shadeblue;
+            src: url(ShadeBlue-2OozX.ttf);
+        }
+
+        .text{
+            text-align: justify;
+            font-family: shadeblue;
+            font-size: 50px;
+        }
+
+
+        .home {
+            height: 650px;
+            width: 330px;
+            margin: 10px 575px;
+            border-radius: 20px;
+            background-image: url(wallpaper.jpg);
+            background-size: cover;
+            background-position: center;
+            position: relative;
+            box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+
+        }
+
+        .camera {
+            padding: 8px 15px;
+        }
+
+        .time-1 {
+            color: white;
+            font-size: 15px;
+            position: absolute;
+            top: 15px;
+            left: 50px;
+        }
+
+        .notification {
+            position: absolute;
+            top: 17px;
+            left: 95px;
+        }
+
+        .vo {
+            font-size: 5.5px;
+            color: white;
+            position: absolute;
+            top: 2px;
+            left: 140px;
+        }
+
+        .time-2 {
+            color: white;
+            font-size: 45px;
+            position: absolute;
+            left: 15px;
+            top: 100px;
+        }
+
+        .btn {
+            width: 120px;
+            position: absolute;
+            bottom: 25px;
+            left: 110px;
+        }
+
+        .btn :hover{
+            background-color:lightskyblue;
+        }
+
+    </style>
+</head>
+
+<body style="background-color: #B9E2F5">
+    <div class="home">
+
+        <div class="camera">
+            <img src="circle.png" alt="camera" />
+
+            <span class="time-1">12:00</span>
+
+            <span class="notification">
+                <img src="chat.png" height="13px" />
+                <img src="snapchat.png" height="13px" />
+                <img src="whatsapp.png" height="13px" />
+                <img src="instagram.png" height="13px" />
+
+                <span class="vo"> Vo
+                    <span style="font-size: 5.5px;"> LTE </span>
+                </span>
+
+                <span style="position: absolute; left: 160px;">
+                    <img src="signal.png" height="13px" />
+                </span>
+
+                <span style="position: absolute; left: 178px;">
+                    <img src="charging.png" height="13px" />
+                </span>
+                <span style="color: white; font-size: 13px; position: absolute; top: 2px; left: 193px;">100%</span>
+            </span>
+        </div>
+
+        <div>
+            <span class="time-2">
+                12:00
+            </span>
+
+            <span style="color: white; font-size: 13px; position: absolute; top: 153px; left: 20px;">Sat, May 4</span>
+
+            <span style="position: absolute; right: 15px; top: 100px;">
+                <img src="sun.png" height="25px" />
+            </span>
+
+            <span style="font-size: 13px; color: white; position: absolute; right: 15px; top: 125px;">
+                Sunny 39<sup>o</sup>C
+            </span>
+
+            <span>
+                <button class="btn">
+                </button>
+            </span>
+        </div>
+    </div>
+
+    <h2 class="text">
+        This is my mobile phone's home page.
+    </h2>
+</body>
+
+</html>
